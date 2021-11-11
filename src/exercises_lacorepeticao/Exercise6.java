@@ -23,7 +23,7 @@ public class Exercise6 {
 
 		} while (num != 0);
 
-		mediaMultiploDeTres = soma / cont;
+		mediaMultiploDeTres = soma / (cont - 1);
 		
 		System.out.println("\nPrograma Finalizado");
 		System.out.println("Média dos números múltiplos de 3: " + mediaMultiploDeTres);
